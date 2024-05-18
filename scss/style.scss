@@ -1,0 +1,36 @@
+@import "header.scss";
+@import "hero.scss";
+@import "saw-product.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$green: #3ea83b;
+
+.container {
+  width: 1142px;
+  margin-inline: auto;
+}
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 15px 54px;
+  border-radius: 43px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  background-color: $green;
+  &:hover {
+    color: #00ff48;
+  }
+}
+.green {
+  color: $green;
+}
+main {
+  padding-top: 115px;
+}

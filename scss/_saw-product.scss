@@ -1,0 +1,43 @@
+.saw-product__container {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 100px;
+  position: relative;
+  .video {
+    &::before {
+      content: "";
+      width: 354px;
+      height: 436px;
+      background-color: #2ae85f;
+      z-index: -1;
+      position: absolute;
+      left: -10px;
+      top: -10px;
+    }
+  }
+}
+.saw-product__text {
+  width: 489px;
+  h1 {
+    font-family: Poppins;
+  }
+  .small-h1 {
+    font-size: 19px;
+    line-height: 23px;
+    color: #3ea83b;
+    margin-bottom: 28px;
+  }
+  .h1 {
+    font-size: 46px;
+    line-height: 23px;
+    margin-bottom: 37px;
+    color: #363739;
+  }
+  p {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 23px;
+    color: #363739;
+    margin-bottom: 20px;
+  }
+}
